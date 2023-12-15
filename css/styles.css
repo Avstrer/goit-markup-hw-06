@@ -309,6 +309,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .footer-text {
   color: #f4f4fd;
@@ -324,6 +325,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .footer-form {
   width: 288px;
@@ -365,6 +367,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 .form-subscribe-icon {
   fill: #ffffff;
@@ -837,6 +841,9 @@ body {
     text-align: left;
   }
   .footer-links-text {
+    text-align: left;
+  }
+  .footer-form-label {
     text-align: left;
   }
   /* MODAL */
