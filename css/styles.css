@@ -644,8 +644,11 @@ body {
   }
   .modal-mobile {
     padding: 72px 24px 40px 16px;
+    display: flex;
+    flex-direction: column;
   }
   .modal-window-mobile {
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -675,9 +678,11 @@ body {
   .current-color {
     color: #404bbf;
   }
+  .contact-social-container {
+    margin-top: auto;
+  }
   .mobile-contact-list {
     margin-bottom: 48px;
-    margin-top: auto;
   }
   .mobile-contact-list-item {
     color: #434455;
