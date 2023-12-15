@@ -490,6 +490,7 @@ body {
   margin-bottom: 16px;
 }
 .textarea-input {
+  display: block;
   width: 100%;
   resize: none;
   padding: 8px 16px;
