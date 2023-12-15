@@ -192,6 +192,9 @@ body {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.team-container {
+  max-width: 296px;
+}
 .team-section {
   background: #f4f4fd;
 }
@@ -344,7 +347,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: left;
 }
 .footer-form-label {
   color: #ffffff;
@@ -613,7 +616,8 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Only mobile styles */
+/*-----------------------------------------------------------------------/* Only mobile styles */
+
 @media screen and (max-width: 767px) {
   .nav-menu {
     display: none;
@@ -655,9 +659,10 @@ body {
   .modal-window-mobile.is-open {
     transform: translateX(0%);
   }
-
-  .mobile-nav-menu-item {
-    margin-bottom: 40px;
+  .mobile-nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
   }
   .mobile-nav-menu-link {
     color: #2e2f42;
@@ -672,6 +677,7 @@ body {
   }
   .mobile-contact-list {
     margin-bottom: 48px;
+    margin-top: auto;
   }
   .mobile-contact-list-item {
     color: #434455;
@@ -679,6 +685,7 @@ body {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    font-style: normal;
   }
   .current-color {
     color: #404bbf;
@@ -752,6 +759,7 @@ body {
   .studio {
     color: #4d5ae5;
     position: relative;
+    padding-bottom: 32px;
   }
   .studio::after {
     content: '';
@@ -777,7 +785,7 @@ body {
   /* SECTION 1 */
 
   .hero-image {
-    padding: 112px 136px;
+    padding: 112px 0px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -911,8 +919,8 @@ body {
   .nav-menu-link {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: block;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    padding-bottom: 28px;
+    padding-top: 28px;
   }
   .nav-menu-link:hover,
   .nav-menu-link:focus {
@@ -1039,8 +1047,8 @@ body {
   }
   /* footer */
   .footer {
-    padding-bottom: 120px;
-    padding-top: 120px;
+    padding-bottom: 100px;
+    padding-top: 100px;
   }
   .footer-main {
     margin-right: 120px;
