@@ -528,7 +528,7 @@ body {
 }
 
 .checkbox-icon {
-  fill: #ffffff;
+  fill: #f4f4fd;
   opacity: 0;
 }
 .checkbox-input:checked + .accept-form-label > .custom-checkbox {
@@ -560,7 +560,8 @@ body {
 }
 .backdrop-btn {
   display: block;
-  margin: 24px auto;
+  margin-left: auto;
+  margin-right: auto;
   border: none;
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
@@ -841,6 +842,12 @@ body {
   }
   .footer-links-text {
     text-align: left;
+  }
+  /* MODAL */
+  .modal {
+    width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
   }
 }
 /* -------------------------------------DESKTOP STYLES----------------------------------------- */
