@@ -52,12 +52,12 @@
         </button>
         <address class="adress-list">
           <ul class="contact-list">
-            <li>
+            <li class="contact-list-item">
               <a href="mailto:info@devstudio.com" class="contact-list-mailto"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="contact-list-item">
               <a href="tel:+110001111111" class="contact-list-mailto"
                 >+11 (000) 111-11-11</a
               >
@@ -157,10 +157,11 @@
           <h2 class="team title">Our Team</h2>
           <ul class="members-list">
             <li class="members-info">
-              <picture>
-                <source srcset="./images/mark.jpg 1x ./images/mark@2x.jpg" />
-                <img src="./images/mark.jpg" alt="team-member" />
-              </picture>
+              <img
+                srcset="./images/mark.jpg 1x ./images/mark@2x.jpg"
+                src="./images/mark.jpg"
+                alt="team-member"
+              />
               <div class="member-card">
                 <h3 class="members">Mark Guerrero</h3>
                 <p class="members-text">Product Designer</p>
@@ -217,10 +218,11 @@
               </div>
             </li>
             <li class="members-info">
-              <picture>
-                <source srcset="./images/tom.jpg 1x ./images/tom@2x.jpg" />
-                <img src="./images/tom.jpg" alt="team-member" />
-              </picture>
+              <img
+                srcset="./images/tom.jpg 1x ./images/tom@2x.jpg"
+                src="./images/tom.jpg"
+                alt="team-member"
+              />
               <div class="member-card">
                 <h3 class="members">Tom Ford</h3>
                 <p class="members-text">Frontend Developer</p>
@@ -278,12 +280,11 @@
             </li>
 
             <li class="members-info">
-              <picture>
-                <source
-                  srcset="./images/camila.jpg 1x ./images/camila@2x.jpg"
-                />
-                <img src="./images/camila.jpg" alt="team-member" />
-              </picture>
+              <img
+                srcset="./images/camila.jpg 1x ./images/camila@2x.jpg"
+                src="./images/camila.jpg"
+                alt="team-member"
+              />
               <div class="member-card">
                 <h3 class="members">Camila Garcia</h3>
                 <p class="members-text">Marketing</p>
@@ -340,12 +341,11 @@
               </div>
             </li>
             <li class="members-info">
-              <picture>
-                <source
-                  srcset="./images/daniel.jpg 1x ./images/daniel@2x.jpg"
-                />
-                <img src="./images/daniel.jpg" alt="team-member" />
-              </picture>
+              <img
+                srcset="./images/daniel.jpg 1x ./images/daniel@2x.jpg"
+                src="./images/daniel.jpg"
+                alt="team-member"
+              />
               <div class="member-card">
                 <h3 class="members">Daniel Wilson</h3>
                 <p class="members-text">UI Designer</p>
@@ -662,7 +662,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer section">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-main">
           <a href="./index.html" class="logotype footer-logotype"
@@ -839,7 +839,7 @@
       </div>
     </div>
   </body>
-  <div class="modal-window-mobile">
+  <div class="modal-window-mobile is-open">
     <div class="container modal-mobile">
       <button class="mobile-close-btn" type="button">
         <svg class="mobile-close-btn-icon" wih="8" height="8">
@@ -865,14 +865,14 @@
         <ul class="mobile-contact-list">
           <li class="mobile-contact-list-part">
             <a
-              href="mailto:info@devstudio.com"
+              href="tel:+110001111111"
               class="current-color mobile-contact-list-item"
-              >info@devstudio.com</a
+              >+11 (000) 111-11-11</a
             >
           </li>
           <li class="mobile-contact-list-part">
-            <a href="tel:+110001111111" class="mobile-contact-list-item"
-              >+11 (000) 111-11-11</a
+            <a href="mailto:info@devstudio.com" class="mobile-contact-list-item"
+              >info@devstudio.com</a
             >
           </li>
         </ul>
